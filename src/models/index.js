@@ -28,6 +28,6 @@ let clothesModle=clothes(sequelize,DataTypes);
 let clothesCollection=new collection(clothesModle);
 module.exports = {
     db: sequelize, //for real connection and will use it in index.js
-    food: foodCollection,// for creating the table and will use it in our routes
-    clothes: clothesCollection //we call this function that is responsable to create table
+    food: foodCollection,
+    clothes: clothesCollection 
 }
